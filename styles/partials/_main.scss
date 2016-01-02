@@ -1,0 +1,253 @@
+/* Main */
+body {
+  background: $body-bg;
+}
+
+
+a {
+  color: $colorCru-gold;
+}
+
+.round-btn {
+  background: #fff;
+  display: inline-block;
+  color: $colorCru-gold;
+  border-radius: 30px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  vertical-align: middle;
+  .fa {
+    vertical-align: top;
+    line-height: 14px;
+  }
+}
+
+.header-complete {
+  background: url(../img/world-map.png) no-repeat;
+  background-size: 370px;
+  background-position: 100% 10%;
+}
+
+.header-global {
+  background: rgba($header-global-bg, .9);
+  color: $colorCru-white;
+  font-size: 14px;
+  padding: 10px 0;
+  a {
+    color: $colorCru-white;
+  }
+}
+
+.site-title {
+  font-size: 28px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.global-logo {
+  display: inline-block;
+  width: 101px;
+  height: 63px;
+  background: url("http://www.cru.org/images/cru-logo.svg") no-repeat center center;
+  background-size: contain;
+}
+
+.global-menu {
+  float: left;
+  margin-left: 24px;
+  margin-bottom: 0;
+  line-height: 28px;
+}
+
+.header-primary {
+  height: 105px;
+  .container-primary {
+    height: 100%;
+    .row {
+      height: 100%;
+    }
+    .col-md-12 {
+      height: 100%;
+      vertical-align: bottom;
+    }
+  }
+}
+
+.primary-menu,
+.site-logo {
+  position: absolute;
+  bottom: 0;
+}
+
+.primary-menu {
+  right: 0;
+}
+
+.navbar-nav {
+  > li {
+    > a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    a:hover,
+    a:focus {
+      background: $colorGrayscale-sand;
+    }
+  }
+}
+
+.navbar-toggle {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  border: 1px solid $colorGrayscale-stone;
+  background: $colorCru-white;
+  margin-bottom: 12px;
+}
+
+.well-plain {
+  background: $colorCru-white;
+  border: none;
+  box-shadow: none;
+}
+
+.well-sand {
+  background: $colorGrayscale-sand;
+  border: none;
+  box-shadow: none;
+}
+
+.featured-item {
+  position: relative;
+}
+
+.featured-title-bar {
+  background: rgba(0,0,0,.75);
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding-top: 10px;
+  .featured-cat {
+    color: $colorCru-gold;
+    display: block;
+    padding: 0 15px;  
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  h2 {
+    color: $colorCru-white;
+    display: block;
+    padding: 0 15px;    
+    font-size: 30px;
+    .icon-right-circle {
+      color: $colorCru-gold;
+    }
+  }
+}
+
+
+.featured-image {
+  img {
+    width: 100%;
+  }
+}
+
+.subfeatured-image {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.subfeatured-cat {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.subfeatured-article {
+  h3 {
+    font-size: 30px;
+    font-weight: 200;
+    a {
+      color: $colorGrayscale-slate;
+    }
+  }
+}
+
+.top-home {
+  background: $colorGrayscale-sand;
+}
+
+.prayer-home {
+  background: url(../img/prayer-home.jpg) no-repeat;
+  background-size: cover;
+  .featured-title {
+    color: $colorGrayscale-stone;
+    opacity: .5;
+  }
+  .featured-title-more {
+    color: $colorGrayscale-pebble;
+    opacity: .75;
+  }
+}
+
+.godatwork-home {
+  background: url(../img/godatwork-home.jpg) no-repeat;
+  background-size: cover;
+  .featured-title {
+    color: $colorGrayscale-stone;
+    opacity: .85;
+  }
+  .featured-title-more {
+    color: $colorCru-white;
+  }
+}
+
+.news-home {
+  .featured-title {
+    color: $colorGrayscale-slate;
+  }
+  .featured-title-more {
+    color: $colorGrayscale-slate;
+  }
+}
+
+.featured-content {
+  padding: 40px 0;
+}
+
+.featured-title {
+  font-size: 36px;
+  font-weight: 100;
+  letter-spacing: 3.75px;
+  text-transform: uppercase;
+}
+
+.featured-title-more {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 3.75px;
+  text-transform: uppercase;
+}
+
+.footer-global {
+  background: $colorGrayscale-pebble;
+  padding: 95px 0;
+  .footer-links {
+    li {
+      border-right: 1px solid $colorGrayscale-rock;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-right: -4px;
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+  a {
+    color: inherit;
+    text-transform: uppercase;
+  }
+}

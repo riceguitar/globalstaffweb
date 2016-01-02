@@ -1,0 +1,19 @@
+{
+  "name": "globalstaffweb",
+  "version": "0.0.0",
+  "homepage": "https://github.com/riceguitar/globalstaffweb",
+  "authors": [
+    "David Sudarma <david@95west.co>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "crubrand": "~2.0.0"
+  }
+}
